@@ -1,0 +1,68 @@
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    color: gray;
+    display: block;
+}
+.sidenav a:hover {
+    color: lightgray;
+}
+.sidenav {
+    height: 100%;
+    width: 170px;
+    position: fixed;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.upload {
+    margin-left: 900px;
+    padding-top: 100px;
+}
+.fr {
+    padding-top: 20px;
+}
+.in {
+    border-style: none;
+    border-bottom: 2px solid lightgray;
+    padding: 15px;
+    padding-left: 70px;
+    margin-right: 50px;
+}
+h2 {
+    margin-left: 15px;
+    padding-bottom: 10px;
+}
+h5 {
+    margin-left: 45px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.ta {
+    margin-left: 10px;
+    border-style: none;
+    border-bottom: 2px solid lightgray;
+}
+h6 {
+    margin-left: 60px;
+    font-size: 130%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.im {
+    margin-left: 30px;   
+}
+h4 {
+    font-size: 130%;
+    margin-left: 75px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.pr {
+    border-style: none;
+    margin-left: 40px;
+    border-bottom: 2px solid lightgray;
+}
+.su {
+    margin-left: 100px;
+}

@@ -1,0 +1,48 @@
+.jumbotron {
+    text-align: center;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 150%;
+}
+.zz:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
+}
+.zz {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+.bb {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+.bt {
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: blue;
+    border-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ca {
+    margin-left: 200px;
+}
+.cb {
+    margin-left: 50px;
+}
+.ba {
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: lightskyblue;
+    border-color: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h6 {
+    padding-left: 50px;
+    border-top: solid 3px lightgray;
+    margin-top: 100px;
+    padding-top: 13px;
+    padding-bottom: 5px;
+    color: lightgray;
+}
+

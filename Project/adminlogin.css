@@ -1,0 +1,114 @@
+body {
+    border: solid 10px;
+    border-color: transparent;
+    padding: 20px;
+    margin: auto auto;
+    width: 29%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+h1 {
+    background-color: lightgray;
+    text-align: center;
+    border: 2px solid lightgray;
+    padding: 50px;
+    margin: 0px 0px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+.detail {
+    color: steelblue;
+    background-color: white;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+.un {
+    border-style: hidden;
+    border-bottom: 2px solid lightgrey;
+    padding: 15px;
+    padding-right: 70px;
+    padding-left: 20px;
+    color: lightgray;
+    margin-left: 26px;
+    font-family: fontawesome;
+}
+
+.ph {
+    border-style: hidden;
+    border-bottom: 2px solid lightgrey;
+    padding: 15px;
+    padding-right: 355px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    color: lightgray;
+    margin-left: 26px;
+    font-family: fontawesome;
+    padding-top: 50px;
+}
+.ad {
+    border-style: hidden;
+    border-bottom: 2px solid lightgrey;
+    padding: 15px;
+    padding-right: 70px;
+    padding-left: 20px;
+    color: lightgray;
+    margin-left: 26px;
+    font-family: fontawesome;
+}
+.in {
+    border-style: hidden;
+    border-bottom: solid 2px lightgrey;
+    padding: 15px;
+    padding-right: 70px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    color: lightgray;
+    margin-left: 26px;
+    font-family: fontawesome;
+}
+.su {
+    background-color: white;
+    border: 2px solid lightgray;
+    margin-left: 485px;
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: gray;
+    margin-top: 15px;
+}
+.ta {
+    border-style: hidden;
+    border-bottom: 2px solid lightgray;
+    padding-right: 210px;
+    color: lightgray;
+    margin-left: 26px;
+}
+.hh {
+    color: lightgray;
+    margin-left: 46px;
+    padding-top: 20px;
+    font-size: 12px;
+}
+::placeholder {
+    color: lightgray;
+}
+.rg {
+    color: steelblue;
+    margin-left: 25px;
+    padding-top: 5px;
+}
+.fr {
+    margin:  15px;
+}
+.ch {
+    margin-left: 47px;
+    padding-top: 10px;
+    color: lightgrey;
+    border: solid lightgray 2px;
+}
+.ca {
+    color: lightgrey;
+    border-bottom: solid 2px lightgrey;
+    padding-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
