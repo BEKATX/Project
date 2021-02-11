@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="register.css">
+    <head>
+        <title>Register</title>
+        <script src="https://kit.fontawesome.com/514d3b3817.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css">
+    </head>
+    <body style="background-image: linear-gradient(to right, blue , lightblue); background-color: blue;">
+        <form class="fr">
+            <section style="background: white;">
+                <h1>REGISTRATION</h1>
+                <h5 class="detail">Your Details</h5>
+                <label for="NameID"></label>
+                <input class="un" 
+                type="text"
+                name="Name"
+                id="NameID"
+                placeholder="&#xf007; Name"
+                required>
+                <label for="LastNameID"></label>
+                <input class="un"
+                type="text"
+                name="LastName"
+                id="LastNameID"
+                placeholder="&#xf007; Last Name"
+                required>
+                <br>
+                <br>
+                <label for="EmailID"></label>
+                <input class="ph"
+                type="email"
+                name="Email"
+                id="EmailID"
+                placeholder="&#xf0e0; Email"
+                required>
+                <br>
+                <br>
+                <label for="CEmailID"></label>
+                <input class="ph"
+                type="email"
+                name="CEmail"
+                id="CEmailID"
+                placeholder="&#xf0e0; Confirm Email"
+                required>
+                <br>
+                <br>
+                <label for="PhoneID"></label>
+                <input class="ph"
+                type="text"
+                name="Phone"
+                id="PhoneID"
+                placeholder="&#xf095; Phone"
+                required>           
+                <label for="BirthDateID"></label>
+                <input class="in"
+                type="datetime"
+                name="BirthDate"
+                id="BirthDateID"
+                placeholder="&#xf073; Birth Date (dd/mm/yy)"
+                required>
+                <label for="PasswordID"></label>
+                <input class="in"
+                type="Password"
+                name="Password"
+                id="PasswordID"
+                placeholder="&#xf084; Enter Password"
+                required>
+                <h5 class="hh"><i class="far fa-comment"></i> Describe yourself</h5>
+                <label for="AdditionalMessageID"></label>
+                <textarea class="ta" name="Additional Message" id="AdditionalMessageIDs" cols="40" rows="2"></textarea>
+                <br>
+                <br>
+                <br>
+                <input class="ch" type="checkbox" id="Terms" name="Terms" value="Terms" required>
+                <label class="ca" for="Terms">Accept terms and conditions</label>
+                <br>
+                <br>
+                <input class="su" type="Submit" value="Register"/>
+                <br>
+                <br>
+            </section>
+        </form>
+    </body>
+</html>
