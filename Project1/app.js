@@ -1,6 +1,13 @@
 var express = require("express"),
   app = express(),
+  mongoose = require("mongoose"),
+  passport = require("passport"),
+  LocalStrategy = require("passport-local"),
+  User = require("./models/user");
   bodyparser = require("body-parser");
+const { Db, MongoClient } = require("mongodb");
+const bodyparser = require("body-parser");
+const user = require("./models/user");  
 
 app.set("view engine", "ejs");
 app.use(express.static("public"));
